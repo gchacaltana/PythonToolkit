@@ -13,9 +13,11 @@ class OperationList():
     list_a = []
     list_b = []
     result = []
+    random_generate = None
 
-    def __init__(self):
-        pass
+    def __init__(self, random_generate):
+        self.random_generate = True if int(random_generate)==1 else False
+        print ("\n Generacion de elementos aleatorios: " + str("On" if self.random_generate==True else "Off"))
 
     def createListA(self, items):
         """
@@ -23,7 +25,10 @@ class OperationList():
         """
         print ("\nCreando lista A....", end="")
         sys.stdout.flush()
-        self.list_a = set([random.randint(1, int(items)*2) for _ in range(int(items))])
+        if self.random_generate == True:
+            self.list_a = set([random.randint(1, int(items)*2) for _ in range(int(items))])
+        else:
+            self.list_a = set(x for x in range(0, int(items)))
         print ("OK ("+ str(len(self.list_a)) +" elementos)")
         sys.stdout.flush()
 
@@ -35,7 +40,10 @@ class OperationList():
         if int(items) <= len(self.list_a):
             print ("Creando lista B....", end="")
             sys.stdout.flush()
-            self.list_b = random.sample(set(self.list_a), int(items))
+            if self.random_generate == True:
+                self.list_b = random.sample(set(self.list_a), int(items))
+            else:
+                self.list_b = set(x for x in range(0, int(items)))
             print ("OK ("+ str(len(self.list_b)) +" elementos)")
         else:
             raise AttributeError("El numero de elementos de la lista B debe ser menor que " + str(len(self.list_a)))
@@ -102,9 +110,14 @@ if __name__ == '__main__':
         """
         Las cantidades de elementos que debe tener cada lista se envia por argumentos en la 
         invocación del script por consola.
-        Ejem: $>py TimeExecutionList.py 400000 3000
+        Primer argumento: Cantidad de elementos Lista A
+        Segundo argumento: Cantidad de elementos Lista B
+        Tercer argumento: Valor númerico donde
+             1 = Generar elementos de lista de forma aleatoria
+             0 = No generar elementos de lista de forma aleatoria
+        Ejem: $>py TimeExecutionList.py 400000 3000 0
         """
-        obj = OperationList()
+        obj = OperationList(sys.argv[3])
         obj.createListA(sys.argv[1])
         obj.createListB(sys.argv[2])
         obj.calculate()
