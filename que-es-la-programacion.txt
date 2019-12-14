@@ -1,0 +1,19 @@
+Programación, un arte basado en la lógica y creatividad
+La palabra “programación” puede tener muchos significados según la persona quién la interprete. En el mundo de la ciencia de la computación, la palabra “programación” está fuertemente asociada a la creación de software.
+Según wikipedia:  “La programación es el proceso por el cual una persona desarrolla un programa informático valiéndose de una herramienta que le permita escribir el código (el cual pueda estar en uno o varios lenguajes de programación)”.
+Sin embargo, muchas personas tienen una idea errónea sobre lo que realmente significa la programación. La idea que tienen es que es una actividad puramente técnica y compleja, que se requiere dominar muy bien las matemáticas, relacionándose como si fuera de naturaleza exacta.
+La computación es exacta, pero la programación no lo es. El primero es el resultado de una operación de una máquina, y el segundo es todavía una actividad humana.
+La programación es una actividad humana que requiere de mucha creatividad, no solo basta comprender los conceptos abstractos, herramientas y técnicas; todas esas teorías representan solo una pequeña parte de lo que necesita una persona para convertirse en un programador de software.
+Mediante la programación, mantenemos mentalmente un mapa de lo que estamos haciendo, que se está modificando, por qué, cómo, y en qué orden. Cuando perdemos la concentración, el mapa mental desaparece y tenemos que recorrer todo el camino para armarlo de nuevo, como se aprecia en el siguiente anecdótico gráfico.
+La correcta combinación de los conocimientos técnicos, la creatividad, la curiosidad y la experiencia nos dará como resultado la magia de la programación.
+La programación como un arte
+Existen muchas publicaciones y libros que mencionan que la programación es un arte, pero ¿la palabra “arte” es la apropiada para describir a la programación?
+La palabra arte proviene del latín ars, artis que significa “habilidad”.
+El arte es toda forma de expresión de carácter creativo que puede tener un ser humano.
+Cada persona es un ser único, tiene su propia forma de pensar, sentir, crear e innovar. Nuestras motivaciones, metas y desafíos siempre serán diferentes, haciendo que cada uno exprese su arte de una manera particular.
+Donald Knuth, menciona en su libro “The Art of Computer Programming”, que la programación si es un arte,  por que se aplica el conocimiento acumulado de cada individuo al mundo, porque se requiere habilidad e ingenio, y especialmente porque produce objetos de belleza.
+Si eres desarrollador de software y si subconscientemente te ves como un artista, es porque disfrutas lo que haces y siempre buscas mejorar cada día.
+¿Consideras que la programación es un arte? déjanos tu comentario.
+Fuente: www.solocodigoweb.com
+Publicado por: Gonzalo Chacaltana Buleje
+URL: http://www.solocodigoweb.com/blog/2019/05/29/programacion-un-arte-basado-en-la-logica-y-creatividad/
